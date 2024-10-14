@@ -1,0 +1,37 @@
+
+body{
+    background-color: rgb(168, 171, 255);
+}
+
+.conteiner{
+    width:auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 5px;
+}
+
+div#area{
+    background-color: black;
+    color: antiquewhite;
+    font: normal 15px arial;
+    width: 83px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 5px;
+}
+
+div#titulo{
+    background-color: black;
+    color: rgb(253, 255, 231);
+    font: normal 15px arial;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 5px;
+}
