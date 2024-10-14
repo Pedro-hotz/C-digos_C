@@ -1,17 +1,9 @@
-var a = document.getElementById('area')  // declaração de variável, todas funções pegam o valor atribuido// 
-a.addEventListener('mouseenter', entrar)
-a.addEventListener('click', clicar) 
-a.addEventListener('mouseout', sair)
-
-function entrar(){
-    a.innerText = 'Entrou'
-}
-function clicar(){
-    a.innerText = 'Você cliclou'
-    a.style.background = 'blue'
-}
-function sair(){
-    a.innerText = 'Saiu'
-    a.style.background = 'black'
-
+function somar(){
+    var tn1 = document.getElementById('txtn1')
+    var tn2 = document.querySelector('input#txtn2')
+    var res = document.getElementById('res')
+    var n1 = Number(tn1.value)
+    var n2 = Number(tn2.value)
+    var s = n1 + n2
+    res.innerHTML = `A soma entre ${n1} e ${n2} é ${s}`
 }
